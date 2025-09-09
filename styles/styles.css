@@ -161,37 +161,37 @@ body{
 @media (max-width: 1300px) {
     .main{
         flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
-        padding: 5%;
+        padding: 5% 5% 0;
     }
     .hero{
         width: auto;
     }
+    .hero__title{
+        font-size: 3rem;
+    }
     .hero__container{
-        width: 75%;
+        width: 100%;
     }
     .hero__container__contact{
         width: 60%;
-    }
-    .hero__title{
-        font-size: 3rem;
     }
 }
 
 @media (max-width: 900px) {
     .main{
-        padding: 7% 7% 0%;
-        justify-content: space-evenly;
+        padding: 5% 7% 0;
     }
     .header__nav{
         display: flex;
         flex-direction: column;
     }
-    .hero__container,.hero__container__contact{
+    .hero__container__contact{
         width: 100%;
+        padding: 10%;
     }
     .cta-button{
         width: auto;
     }
 }
-
